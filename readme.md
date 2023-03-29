@@ -8,3 +8,4 @@ também chamado de IOC(Inversão de controle).
 Para que isso ocorra é necessário a injeção de dependências(que são basicamente as classes que estão contidas em classes que necessitam delas).
 
 
+## Anotações 
