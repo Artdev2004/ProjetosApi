@@ -1,7 +1,9 @@
 package br.com.api.produtos.controle;
 
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
+
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -15,7 +17,7 @@ import br.com.api.produtos.modelo.ProdutoModelo;
 import br.com.api.produtos.modelo.RespostaModelo;
 import br.com.api.produtos.servico.ProdutoServico;
 
-@RestController // 
+@RestController
 @CrossOrigin(origins = "*") // libera api para qualquer porta acessar
 public class ProdutoControle{
 

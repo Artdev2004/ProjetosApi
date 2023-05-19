@@ -45,8 +45,9 @@ const produto = {
     })
     .then(retorno => retorno.json())
     .then(retorno_convertido => {
-      retorno_convertido.mensagem !== undefined ? alert(retorno_convertido.mensagem) : setProdutos([...produtos, retorno_convertido]);
-      alert("Cadastro Realizado com Sucesso")
+      retorno_convertido.mensagem !== undefined ? alert(retorno_convertido.mensagem) 
+      : setProdutos([...produtos, retorno_convertido], alert('Cadastro Realizado com Sucesso'));
+      
       limparFormulario()
     })
   }
